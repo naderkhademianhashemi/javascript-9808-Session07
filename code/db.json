@@ -1,0 +1,49 @@
+{
+  "test": {
+
+  },
+  "products": [
+    {
+      "name": "Monitor",
+      "price": "200000",
+      "img": "http://lorempixel.com/400/200/sports/Dummy-Text",
+      "id": 2
+    },
+    {
+      "name": "3456345",
+      "price": "33333",
+      "img": "http://lorempixel.com/400/200/sports",
+      "id": 3
+    },
+    {
+      "name": "234234",
+      "price": "234",
+      "img": "http://lorempixel.com/400/200/sports",
+      "id": 4
+    },
+    {
+      "name": "werwer",
+      "price": "32324",
+      "img": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "price": "",
+      "img": "",
+      "id": 7
+    },
+    {
+      "name": "234234",
+      "price": "324",
+      "img": "234234",
+      "id": 8
+    },
+    {
+      "name": "234234",
+      "price": "23423",
+      "img": "http://lorempixel.com/400/200/sports/Dummy-Text",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="card text-white bg-primary  mb-3">
+        <div class="card-body  ">
+            <p class="card-text">Text</p>
+        </div>
+    </div>
+    <button class="btn btn-primary">Load</button>
+
+    <script >
+        $.ajaxSetup({
+                "type": "post", 
+                "url": 'data.html',
+            })
+       $(() => {
+           $('button').click(e => {
+            //    $.get("data.html", data => {
+                //    $('.card-body').html(data);
+            //    })
+
+            // $.get("data.html").then(data => {
+            //     $('.card-body').html(data);
+            // })
+
+            // $('.card-body').load("data.html h2")
+
+
+            // $.ajax({
+            //     "url": 'data.html',
+            //     "type": "get",  
+            //     "header":              
+            // }).then(data => {
+            //     $('.card-body').html(data);
+            // })
+
+            // $.post("", {})
+
+            $.ajax({}).then(data => {
+                $('.card-body').html(data);
+            })
+
+            
+
+           })        
+       })
+    </script>
+</body>
+</html>
